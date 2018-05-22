@@ -8,22 +8,22 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    
+  /* Remove the navbar's default margin-bottom and rounded borders */ 
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  
   .carousel-inner img {
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-      min-height:200px;
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
   }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -32,29 +32,40 @@
       display: none; 
     }
   }
-  </style>
+  #floated{
+    float: left;
+    width: 305px;
+  }
+</style>
 </head>
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#" style="position: absolute; margin-left: 45%;font-family: sans-serif;">Dunia Reptile</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#" style="position: absolute; margin-left: 45%;font-family: sans-serif;">Dunia Reptile</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="Shop.html">Shop</a></li>
+          <li><a href="Event.html">Event</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Contacts_us.html">Contacts Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar" style="position: absolute;">
-      <ul class="nav navbar-nav" >
-        <li class="active"><a href="index.html">Home</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -64,18 +75,18 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox" >
       <div class="item active">
-        <img src="images/sanca.jpg" alt="Image" style="height: 700px">
+        <img src="images/Aldabra.jpg" alt="Image" style="height: 700px">
         <div class="carousel-caption">
-          <h3>Sanca Hijau</h3>
-          <p>Morelia viridis</p>
+          <h3>Aldabra</h3>
+          <p>Aldabrachelys gigantea</p>
         </div>      
       </div>
 
       <div class="item">
-        <img src="images/viper2.jpg" alt="Image" width="50%" style="height: 700px">
+        <img src="images/kurakura_aligator2.jpg" alt="Image" width="50%" style="height: 700px">
         <div class="carousel-caption">
-          <h3>Viper</h3>
-          <p>Viperidae</p>
+          <h3>Alligator snapping</h3>
+          <p>Macrochelys temminckii</p>
         </div>      
       </div>
     </div>
@@ -89,37 +100,79 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
-  
-<div class="container text-center">    
-  <h3>HOT NEWS !</h3><br>
-  <div class="container text-center">
-    <a href="#"><img src="images/kurakura.jpg"  alt="Image" width="300" height="193"></a>
-    <h2>Kura kura</h2>
-    <p>Laporan sebuah organisasi lingkungan, TRAFFIC, mengungkap bahwa ribuan kura-kura darat dan air tawar yang terancam punah diperdagangkan di Jakarta dan beberapa di antaranya bukan merupakan spesies asli Indonesia.
-
-Terungkap, delapan spesies yang ditemukan dalam survei mereka tahun 2015 merupakan hewan yang dilarang untuk diperdagangkan secara internasional berdasarkan CITES (Konvensi Internasional Perdagangan Spesies Flora dan Fauna Liar yang Terancam Punah).
-
-"Jika pihak berwajib tidak menindak perdagangan ini dan pasar-pasar terbuka yang memperdagangkan spesies tersebut secara ilegal sebagai prioritas aksi penegakan hukum, maka banyak spesies-spesies yang saat ini terancam akan makin terdesak menuju kepunahan," kata Kanitha Krishnasamy, pejabat sementara direktur regional TRAFFIC di Asia Tenggara.
-
-Perdagangan hiu di Indonesia menguntungkan, tapi 'mengancam populasi di alam liar'
-Selama 16 tahun terakhir, setidaknya 100.000 orangutan terbunuh di Kalimantan
-Owa Jawa, hewan setia yang terancam punah
-Laporan berjudul 'Perlahan tapi Pasti: Jejak Global dari Perdagangan Kura-kura Darat dan Air Tawar di Jakarta' itu diterbitkan Senin (26/3).
-
-Sebagian besar spesies yang ditemukan bukan merupakan asli dari Indonesia dan diperkirakan diimpor secara illegal. Dalam survei selama empat bulan pada 2015, peneliti menemukan 4.985 kura-kura darat dan air tawar dari 65 spesies yang berbeda.
-
-Hampir separuh dari spesies itu masuk kategori terancam punah berdasarkan Daftar Merah Spesies yang Terancam Punah dari International Union for Conservation of Nature IUCN.
-
-Penemuan itu menunjukkan perdagangan kura-kura darat dan air tawar di Jakarta meningkat, dibandingkan dengan hasil survei TRAFFIC pada tahun 2004 dan 2010, yaitu 92 sampai 983 ekor hewan yang teramati diperdagangkan setiap minggunya.</p>
-
   </div>
   
-</div><br>
+  <div class="container text-center">    
+    <h3>Bangsa Kura-kura</h3><br>
 
-<footer class="container-fluid text-center" style="background-color: #73a2ef">
-  <p>Copy Right &copy; by arifkusyairi</p>
-</footer>
+    <div class="text-justify">
+      <div id="floated">
+        <a href="#"><img src="images/kurakura2.jpg"  alt="Image" width="300" height="193"></a>
+        <h4 class="text-center" style="background-color: black; color: white;">Radiated Tortoise </h4>
+      </div>
+      <p>Merupakan spesies kura-kura darat yang relative besar di Pulau Madagaskar. Spesies ini dikenal dengan nama Sokake di Madagaskar. Spesies ini dianggap kebanyakan orang sebagai satu-satunya spesies yang terindah di antara spesies-spesies kura-kura darat lainnya. Spesies ini merupakan jenis pet yang terkenal eksotik.
+
+      Panjang carapace dari spesies ini dapat mencapai 41cm dengan berat 16kg. Sang jantan dapat dikenali dengan ekornya yang lebih panjang dari pada betina.Karena keindahannya, populasi spesies ini semakin menipis. Diduga, 45000 spesies ini dibunuh setiap tahunnya sebagai makanan. Selain itu, keindahan spesies ini membuatnya sering diperdagangkan secara illegal. Karena itu spesies ini kini menjadi spesies yang dilindungi di dunia.</p>
+    </div>
+  </div>
+
+  <div class="container text-center">    
+    <h3></h3><br>
+
+    <div class="text-justify">
+      <div id="floated">
+        <a href="#"><img src="images/brazil.jpg"  alt="Image" width="300" height="193"></a>
+        <h4 class="text-center" style="background-color: black; color: white;">Brazil </h4>
+      </div>
+      <p>Jenis ini pertama di temukan di amerika serikat lalu di bawa ke brazil untuk dipelihara, karena bosan beberapa kura-kura brazil di lepaskan ke alam bebas, tetapi hal ini menghasilkan kura-kura jenis ini berkembang dengan pesat dan mengurangi populasi kura-kura asli amerika selatan menurun. Bentuknya yang unik membuat banyak orang di indonesia terpincut oleh kecantikan kura-kura ini, terhitung kura-kura brazil menjadi kura-kura peliharaan terbanyak yang di miliki orang-orang di indonesia.</p>
+    </div>
+  </div>
+
+  <div class="container text-center">    
+    <h3></h3><br>
+
+    <div class="text-justify">
+      <div id="floated">
+        <a href="#"><img src="images/Aldabra2.jpg"  alt="Image" width="300" height="193"></a>
+        <h4 class="text-center" style="background-color: black; color: white;">Aldabra</h4>
+      </div>
+      <p>Kura-kura Aldabra berasal dari Pulau Aldabra. Kura-kura ini merupakan salah satu kura-kura terbesar di dunia. Kura-kura jenis ini juga termasuk hewan yang memiliki umur terpanjang dibandingkan hewan-hewan lainnya. Seekor kura-kura Aldabra bisa mencapai umur 255 tahun. Bentuk tubuhnya maupun perilakunya sangat mirip dengan kura-kura raksasa dari Pulau Seychelles. Beberapa orang bahkan menganggap kedua jenis kura-kura tersebut merupakan spesies yang sama.
+
+      Hewan tersebut memiliki cangkang yang berbentuk seperti kubah besar, berguna bagaikan baju zirah yang melindungi tubuhnya dari bagian atas hingga ke bawah. Kura-kura ini juga memiliki leher yang luar biasa panjang, sehingga cukup baginya untuk meraih dedaunan yang berada di dahan pohon yang lebih tinggi. Rata-rata panjang tubuh kura-kura jantan Aldabra bisa mencapai 1,1 meter, sedangkan panjang tubuh betina bisa mencapai sekitar 0,9 meter. Tubuh para jantan memiliki bobot yang mencapai hampir 100kg lebih berat dibandingkan dengan tubuh betina.</p>
+    </div>
+  </div>
+
+  <div class="container text-center">    
+    <h3></h3><br>
+
+    <div class="text-justify">
+      <div id="floated">
+        <a href="#"><img src="images/kurakura5.jpg"  alt="Image" width="300" height="193"></a>
+        <h4 class="text-center" style="background-color: black; color: white;">African Spurred Tortoise</h4>
+      </div>
+      <p>Sering disebut juga sebagai kura-kura Sulcata. Spesies ini berhabitat di ujung sebelah selatan dari Gurun Sahara, di bagian utara Afrika. Merupakan spesies kura-kura terbesar yang ketiga di dunia dan merupakan spesies yang termasuk dalam Genus Centrochelys. Sebutan ‘Sulcata’ yang tersemat dalam nama spesies ini berasal dari bahasa Latin ‘Succus’ yang berarti “kerutan”, yang menunjuk pada kerutan-kerutan di sisiknya.
+
+        Berat tubuh spesies ini mencapai 105kg sedangkan panjang tubuhnya bisa mencapai 83cm. Panjang usia dari spesies ini bisa berkisar 50 hingga 150 tahun.
+
+      Spesies yang satu ini cukup menyenangkan dan menarik minat orang-orang, sehingga tak jarang yang menjadikannya sebagai peliharaan.</p>
+    </div>
+  </div>
+
+  <div class="container text-center">    
+    <h3></h3><br>
+
+    <div class="text-justify">
+      <div id="floated">
+        <a href="#"><img src="images/kurakura_aligator.jpg"  alt="Image" width="300" height="193"></a>
+        <h4 class="text-center" style="background-color: black; color: white;">Alligator snapping</h4>
+      </div>
+      <p>Kura Kura air tawar terbesar di dunia berdasarkan berat mereka . kura kura Ini berburu dengan menggunakan mulut mereka yang disamarkan dan memiliki lidah seperti cacing di ujung lidahnya untuk memikat mangsanya, mangsa nya bisa apa saja dari ikan ,ular ,burung air bahkan kura-kura lainnya. mereka berburu mangsa dengan cara Berbaring sepenuhnya tanpa bergerak dengan mulut terbuka lebar, hal ini dilakukan hanya untuk menunggu mangsa mendekati mulutnya.</p>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center" style="background-color: #73a2ef">
+    <p>Copy Right &copy; by arifkusyairi</p>
+  </footer>
 
 </body>
 </html>
